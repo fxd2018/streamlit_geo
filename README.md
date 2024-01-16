@@ -20,6 +20,9 @@ c:\>cd c:/my_envs/env_st/Scripts/activate
 ~~~
 # ダウンロードしたフォルダの中にあるequirements.txtを使用
 (env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work2\streamlit_geo\requirements.txt
+~~~
+## STEP3: アプリ起動
+~~~
 (env_st) C:\my_envs\env_st\Scripts>cd C:\work2\streamlit_geo
 (env_st) C:\work2\streamlit_geo>streamlit run st_home.py
 ~~~
