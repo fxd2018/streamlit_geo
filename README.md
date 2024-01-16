@@ -1,6 +1,7 @@
 # ローカル環境で実行するための手順書
-## STEP1: 作業用フォルダ作成、使用ファイルをダウンロード
+## STEP1: 作業用フォルダ作成、使用のファイルをダウンロード
 - 「Win」＋「R」でコマンドプロンプトを起動、以下のコードを実行
+- 実行ができたら、「work」フォルダの中に「streamlit_geo」フォルダができるはず
 ~~~
 C:\Users\username>cd c:/
 c:\>mkdir work
@@ -19,10 +20,10 @@ c:\>cd c:/my_envs/env_st/Scripts/activate
 - 必要なライブラリをインストール  
 （ダウンロードしたフォルダの中にあるequirements.txtを使用）
 ~~~
-(env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work2\streamlit_geo\requirements.txt
+(env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work\streamlit_geo\requirements.txt
 ~~~
 ## STEP3: アプリ起動
 ~~~
 (env_st) C:\my_envs\env_st\Scripts>cd C:\work2\streamlit_geo
-(env_st) C:\work2\streamlit_geo>streamlit run st_home.py
+(env_st) C:\work\streamlit_geo>streamlit run st_home.py
 ~~~
