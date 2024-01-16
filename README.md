@@ -16,8 +16,8 @@ c:\>cd c:/my_envs
 c:\my_envs>python -m venv env_st
 c:\>cd c:/my_envs/env_st/Scripts/activate
 ~~~
-- 使用のライブラリをインストール
-ダウンロードしたフォルダの中にあるequirements.txtを使用
+- 必要なライブラリをインストール  
+（ダウンロードしたフォルダの中にあるequirements.txtを使用）
 ~~~
 (env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work2\streamlit_geo\requirements.txt
 ~~~
