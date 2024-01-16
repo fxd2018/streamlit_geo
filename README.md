@@ -8,16 +8,18 @@ c:\>cd c:/work
 c:\work>git clone https://github.com/fxd2018/streamlit_geo.git
 ~~~
 ## STEP2: 環境配置
-- 仮想環境作成
+- 仮想環境作成し、起動
 ~~~
-詳細略
+C:\Users\username>cd c:/
+c:\>mkdir my_envs
+c:\>cd c:/my_envs
+c:\my_envs>python -m venv env_st
+c:\>cd c:/my_envs/env_st/Scripts/activate
 ~~~
-- 仮想環境を起動し、使用のライブラリをインストール
+- 使用のライブラリをインストール
 ~~~
 # ダウンロードしたフォルダの中にあるequirements.txtを使用
 (env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work2\streamlit_geo\requirements.txt
 (env_st) C:\my_envs\env_st\Scripts>cd C:\work2\streamlit_geo
 (env_st) C:\work2\streamlit_geo>streamlit run st_home.py
 ~~~
-## STEP3:
-
