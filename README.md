@@ -1,7 +1,7 @@
 # ローカル環境で実行するための手順書
 ## STEP1: 作業用フォルダ作成、使用のファイルをダウンロード
 - 「Win」＋「R」でコマンドプロンプトを起動、以下のコードを実行
-- 実行ができたら、「work」フォルダの中に「streamlit_geo」フォルダができるはず
+- 実行ができたら、「work」フォルダの中に「streamlit_geo」フォルダが確認できるはず
 ~~~
 C:\Users\username>cd c:/
 c:\>mkdir work
@@ -15,7 +15,8 @@ C:\Users\username>cd c:/
 c:\>mkdir my_envs
 c:\>cd c:/my_envs
 c:\my_envs>python -m venv env_st
-c:\>cd c:/my_envs/env_st/Scripts/activate
+c:\>cd c:/my_envs/env_st/Scripts
+c:\my_envs\env_st\Scripts>activate
 ~~~
 - 必要なライブラリをインストール  
 （ダウンロードしたフォルダの中にあるequirements.txtを使用）
