@@ -12,7 +12,7 @@ c:\work>git clone https://github.com/fxd2018/streamlit_geo.git
 ~~~
 ### やり方②：手動でダウンロードする
 - ｃドライブの直下に「work」というフォルダを作成
-- 「Clone or Download」の緑のボタンより、「Download Zip」をクリックし、先ほど作成した「work」フォルダに格納する
+- 本画面の「Clone or Download」の緑のボタンより、「Download Zip」をクリックし、先ほど作成した「work」フォルダに格納する
 ## STEP2: 環境配置
 - 仮想環境作成し、起動
 ~~~
