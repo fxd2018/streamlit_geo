@@ -2,7 +2,8 @@
 ## STEP1: 使用のファイルをダウンロードし、作業用フォルダに格納する
 ### ＞　やり方①：手動でダウンロードする
 - ｃドライブの直下に「my_envs」というフォルダを作成
-- 本画面の「Clone or Download」の緑のボタンより、「Download Zip」をクリックし、先ほど作成した「my_envs」フォルダに格納する
+- 本画面の「Clone or Download」の緑のボタンより、「Download Zip」をクリックしダウロードする
+- ファイルを解凍し、先ほど作成した「my_envs」フォルダに格納する
 
 ### ＞　やり方②：gitを使い、ダウンロードする
 
@@ -10,30 +11,45 @@
 - 「Win」＋「R」でコマンドプロンプトを起動、以下のコードを実行                                        
 ~~~
 git clone https://github.com/fxd2018/streamlit_geo.git c:\my_envs\streamlit_geo
-~~~                                      
-- 実行ができたら、先ほど作成した「my_envs」フォルダに「streamlit_geo」フォルダがあり、その中に本画面にあるファイルを確認できるはず
-- git clone の文法について
+~~~
 
-| パス                      | コード                                             |
+| ディレクトリ              | コマンド                                             |
 |---------------------------|----------------------------------------------------|
-| C:\Users\username>        | git clone [ダウロード元] [ダウロード先] |   
+| C:\Users\username>        | git clone [ダウロード元] [ダウロード先] |
+
+- 実行ができたら、先ほど作成した「my_envs」フォルダに「streamlit_geo」フォルダが格納でき、その中に本画面にあるファイルも確認できるはず
+
+
+
 ## STEP2: 環境配置
-- 仮想環境作成し、起動
+- pythonのインストール（Microsoft Store経由でインストールするか、このリンク https://www.python.org/downloads/ よりダウロードしインストールする）
+- 「Win」＋「R」でコマンドプロンプトを起動、以下のコードを実行 （仮想環境を作成するため）
 ~~~
-C:\Users\username>cd c:/
-c:\>mkdir my_envs
-c:\>cd c:/my_envs
-c:\my_envs>python -m venv env_st
-c:\>cd c:/my_envs/env_st/Scripts
-c:\my_envs\env_st\Scripts>activate
+python -m venv c:/my_envs/env_st
 ~~~
-- 必要なライブラリをインストール  
-（ダウンロードしたフォルダの中にあるequirements.txtを使用）
+- 以下のコードを実行し、仮想環境を起動する
 ~~~
-(env_st) C:\my_envs\env_st\Scripts>pip install -r C:\work\streamlit_geo\requirements.txt
+C:\my_envs\env_st\Scripts\Activate
 ~~~
+- 起動できたら、コマンドプロンプトのディレクトリは下のようになるはず
+
+| ディレクトリ              | コマンド                                            |
+|---------------------------|----------------------------------------------------|
+|(env_st) C:\Users\username>       |  |
+
+- 必要なライブラリをインストール（ダウンロードしたフォルダの中にあるrequirements.txtを使用）
+~~~
+pip install -r C:\my_envs\streamlit_geo\requirements.txt
+~~~
+| ディレクトリ              | コマンド                                            |
+|---------------------------|----------------------------------------------------|
+|(env_st) C:\Users\username>       | pip install -r C:\my_envs\streamlit_geo\requirements.txt |
+
 ## STEP3: アプリ起動
+- 下のコードをコピーして、コマンドプロンプトに貼り付けて実行
 ~~~
-(env_st) C:\my_envs\env_st\Scripts>cd C:\work\streamlit_geo
-(env_st) C:\work\streamlit_geo>streamlit run st_home.py
+C:\work\streamlit_geo>streamlit run C:\work\streamlit_geo\st_home.py
 ~~~
+| ディレクトリ              | コマンド                                            |
+|---------------------------|----------------------------------------------------|
+|(env_st) C:\Users\username>       | streamlit run C:\work\streamlit_geo\st_home.py |
