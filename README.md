@@ -62,10 +62,26 @@ pip install -r C:\my_envs\streamlit_geo\requirements.txt
   |(env_st) C:\Users\username | pip install -r C:\my_envs\streamlit_geo\requirements.txt |
 
 ## STEP3: アプリ起動
-- 下のコードをコピーして、コマンドプロンプトに貼り付けて実行
+- コマンドプロンプトのディレクトリを「streamlit_geo」に変更する。下のコードをコピーして、コマンドプロンプトに貼り付けて実行。
 ~~~
-streamlit run C:\my_envs\streamlit_geo\st_home.py
+cd C:\my_envs\streamlit_geo
 ~~~
+
   | ディレクトリ              | コマンド                                            |
   |---------------------------|----------------------------------------------------|
-  |(env_st) C:\Users\username | streamlit run C:\my_envs\streamlit_geo\st_home.py |
+  |(env_st) C:\Users\username | cd C:\my_envs\streamlit_geo |
+
+- 変更できたら、ディレクトリは下のようになるはず
+  
+  | ディレクトリ              | コマンド                                            |
+  |---------------------------|----------------------------------------------------|
+  |(env_st) C:\my_envs\streamlit_geo |   |
+  
+- 下のコードをコピーして、コマンドプロンプトに貼り付けて実行
+~~~
+streamlit run st_home.py
+~~~
+
+  | ディレクトリ              | コマンド                                            |
+  |---------------------------|----------------------------------------------------|
+  |(env_st) C:\my_envs\streamlit_geo | streamlit run st_home.py |
