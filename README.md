@@ -64,8 +64,8 @@ pip install -r C:\my_envs\streamlit_geo\requirements.txt
 ## STEP3: アプリ起動
 - 下のコードをコピーして、コマンドプロンプトに貼り付けて実行
 ~~~
-streamlit run C:\work\streamlit_geo\st_home.py
+streamlit run C:\my_envs\streamlit_geo\st_home.py
 ~~~
   | ディレクトリ              | コマンド                                            |
   |---------------------------|----------------------------------------------------|
-  |(env_st) C:\Users\username | streamlit run C:\work\streamlit_geo\st_home.py |
+  |(env_st) C:\Users\username | streamlit run C:\my_envs\streamlit_geo\st_home.py |
