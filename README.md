@@ -77,7 +77,7 @@ pip install -r C:\my_envs\streamlit_geo\requirements.txt
     |(env_st) C:\my_envs\streamlit_geo |   |
     
 - 下のコードをコピーして、コマンドプロンプトに貼り付けて実行
-  -     streamlit run st_home.py
+  -     streamlit run TOP.py
   - （参考）
     | ディレクトリ              | コマンド                                            |
     |---------------------------|----------------------------------------------------|
