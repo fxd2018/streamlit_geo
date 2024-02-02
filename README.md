@@ -1,3 +1,5 @@
+![画像 (1)](https://github.com/fxd2018/streamlit_geo/assets/156732003/b5c45373-c93c-4b9b-b346-25346622bb81)
+![画像](https://github.com/fxd2018/streamlit_geo/assets/156732003/f27763c2-c67b-4043-a0b0-f1c4d30bdc48)
 # ローカル環境で実行するための手順書
 ## STEP1: 使用のファイルをダウンロードし、作業用フォルダに格納する
 ### ＞　やり方①：手動でダウンロードする
