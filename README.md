@@ -81,7 +81,7 @@ pip install -r C:\my_envs\streamlit_geo\requirements.txt
   - （参考）
     | ディレクトリ              | コマンド                                            |
     |---------------------------|----------------------------------------------------|
-    |(env_st) C:\my_envs\streamlit_geo | streamlit run st_home.py |
+    |(env_st) C:\my_envs\streamlit_geo | streamlit run TOP.py |
 
   
 
